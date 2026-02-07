@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Happy Birthday Zizou !!</title>
+        <link href="https://fonts.googleapis.com" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="ninif.css">
+    </head>
+    <body>
+        
+        <section class="page1" id="page1">
+            <h1 class="happy-title">Happy Birthday Aziz Ba !</h1>
+            <div class="heart-container" id="heartContainer">
+                <div class="heart" id="heart"></div>
+            </div>
+           
+            <audio id="birthdayMusic" loop autoplay>
+                <source src="music/hbmusic.mp3" type="audio/mpeg">
+            </audio>
+        </section>
+
+        <div class="black-transition" id="blackTransition">
+            <div class="black-heart"></div>
+        </div>
+
+        <section class="page2" id="page2">
+
+            <div class="reaper-background"></div>
+
+            <div class="question-container">
+                <h2 class="question">Before going any further Mr Ba, a question:</h2>
+                <div class="bloody-text">DO YOU LOVE ME???</div>
+                <div class="answers">
+                    <button class="answer-btn yes-btn" id="yesBtn">OUIII</button>
+                    <button class="answer-btn no-btn" id="noBtn">NOPEE</button>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="screamer" id="screamer">
+            <img src="images/ghost2.0.png" alt="Screamer" class="screamer-img" id="screamerImg">
+            <button class="think-again-btn" id="thinkAgainBtn">Think Again</button>
+        </div>
+
+        <section class="page3" id="page3">
+            <div class="download-container">
+                <h2 class="download-title">Hee le tonton a 24 ans. Heu, c'est presque 30 ans hein!!</h2>
+                <p class="loading-text" id="loadingText">Préparation de la retraite... JOOKING</p>
+                
+                <div class="progress-container">
+                    <div class="progress-bar" id="progressBar"></div>
+                </div>
+                
+                <div class="percentage" id="percentage">0%</div>
+                <p class="download-message" id="downloadMessage">Kharal toutiiiiii ...</p>
+            </div>
+        </section>
+
+        <section class="page4" id="page4">
+            <div class="bride-background"></div>
+            
+            <div class="bride-message">
+                <h2 class="bride-title">I KNEW ITTTTT! <br/><span style="font-size: 1.5rem; color: antiquewhite;">You do love meee, OMGG i'm soo happy!! ANYWAY!</span></h2>
+                <p class="bride-text">HAPPY BIRTHDAY MISTER DARK CHOCOLATE, MISTER BIG NOSE, BIG DI--</p>
+                <p class="bride-text">Our heart is full of ❤️ for you!</p>
+                <p class="bride-text" style="font-size: 1.5rem; margin-top: 20px; color: #ff4081;">
+                Maintenant, choisis ta prochaine aventure :
+            </p>
+            </div>
+
+            <div class="choice-container">
+                <button class="choice-btn cake-btn" id="cakeBtn">
+                    <i class="fas fa-birthday-cake choice-icon"></i>
+                    <span>Eat a Cake</span>
+                </button>
+                
+                <button class="choice-btn secret-btn" id="secretBtn">
+                    <i class="fas fa-seedling choice-icon"></i>
+                    <span>See the Secret</span>
+                </button>
+            </div>
+        </div>
+
+        </section>
+
+        <section class="page5" id="page5">
+            <div class="cake-background"></div>
+            <div class="end-timer" id="endTimer">Fin dans: 30s</div>
+            <div class="photo-container">
+                <img src="images/zizouselfie.jpeg" alt="Zizou" class="friend-photo" id="friendPhoto">
+                <div class="cake">
+                    <div class="cake-decoration"></div>
+                    <div class="candle" id="candle">
+                        <div class="flame" id="flame"></div>
+                    </div>
+                </div>
+            </div>
+        <!--   <h2 class="wish-text">Make a wish and Blow the candle</h2> -->
+        </section>
+
+            <!-- Message pub TV -->
+        <div class="marquee-container" id="marqueeContainer" style="display: none;">
+            <div class="marquee" id="marquee">
+                Je t'aime beaucoup Abdou Aziz Ba ❤️ Je te souhaite santé; prospérité, réussite et tout le bonheur du monde. Qu'Allah veille sur toi, toujours! Profite de ta journée et prends soin de toi. Love Youuuu ❤️
+            </div>
+        </div>
+        
+        <!-- Fin du site - Turn the TV offf -->
+        <div class="tv-off" id="tvOff">
+            <div class="tv-off-effect"></div>
+        </div>
+        
+        <button class="restart-btn" id="restartBtn">Be Happy! -Maty🖤</button>
+        
+        <div class="audio-controls">
+            <button class="music-btn" id="musicToggle">
+                <i class="fas fa-volume-up"></i>
+            </button>
+        </div>
+
+        <script src="ninif.js"></script> 
+    </body>
+</html>
